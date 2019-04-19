@@ -1,0 +1,55 @@
+/* Overarching */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* Header */
+
+
+.header {
+    background-color: #dbfce8;
+}
+.header::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.logo {
+    float: left;
+}
+.logoWords {
+    font-family: 'Cute Font', cursive;
+    font-size: 36px;
+    margin-left: 0px;
+    margin-top: 16px;
+}
+
+.nav {
+    float: right;
+}
+.nav ul {
+    margin-bottom: 0px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: darkslategray;
+    line-height: 70px;
+    font-size: 15px;
+}
