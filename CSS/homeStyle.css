@@ -39,6 +39,7 @@ body {
 
 .nav {
     float: right;
+    font-family: cursive;
 }
 .nav ul {
     margin-bottom: 0px;
@@ -52,4 +53,46 @@ body {
     color: darkslategray;
     line-height: 70px;
     font-size: 15px;
+}
+.nav ul li div button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: darkslategray;
+    line-height: 70px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+/* Dropdown Button */
+.apDropdown {
+  background-color: #dbfce8;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.apDropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.apDropdownContent a {
+  color: black;
+  padding: 3px 4px;
+  text-decoration: none;
+  display: block;
+}
+.apDropdownContent a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .apDropdownContent {
+    display: block;
+}
+.dropdown:hover .apDropdown {
+    background-color: #61ed8f;
 }
