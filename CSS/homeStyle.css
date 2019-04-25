@@ -12,19 +12,26 @@ body {
     max-width: 1600px;
     margin: auto;
 }
-
-
-/* Header */
-
-
-.header {
-    background-color: #dbfce8;
-}
-.header::after {
+.clearfix::after {
     content: " ";
     clear: both;
     display: block;
     visibility: none;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Header
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+.header {
+    background-color: #dbfce8;
+    padding-top: 10px;
 }
 
 .logo {
@@ -55,14 +62,13 @@ body {
     font-size: 15px;
 }
 .nav ul li div button {
-    padding: 10px 20px;
+    padding: 0px 20px;
     text-decoration: none;
     color: darkslategray;
     line-height: 70px;
     font-size: 15px;
     font-family: cursive;
 }
-
 /* Dropdown Button */
 .apDropdown {
   background-color: #dbfce8;
@@ -94,5 +100,31 @@ body {
     display: block;
 }
 .dropdown:hover .apDropdown {
-    background-color: #61ed8f;
+    background-color: #b5f28c;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Inner Stuff
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+.container .content {
+    background-color: #f1fce3;
+}
+.innerContainer {
+    border-style: solid;
+    margin-bottom: 20px;
+}
+.imageContainer {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+.frontImage {
+    width: 100%;
 }
