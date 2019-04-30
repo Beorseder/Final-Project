@@ -128,3 +128,21 @@ body {
 .frontImage {
     width: 100%;
 }
+
+.fakeNewsHeader {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.fakeNews {
+    border: 1px solid #252526;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.fakeNews tr th, td{
+    border: 1px solid #252526;
+}
+.fakeNews tr th, td p {
+    color: #91778e;
+}
