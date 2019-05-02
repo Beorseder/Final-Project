@@ -113,6 +113,14 @@ body {
 /////////////////////////////////////////////////////
 */
 
+body h1, h2 {
+    font-family: 'Cute Font', cursive;
+    font-size: 3em;
+    color: orange;
+}
+body p {
+    font-family: 'Open Sans', cursive;
+}
 .container .content {
     background-color: #f1fce3;
 }
@@ -145,4 +153,41 @@ body {
 }
 .fakeNews tr th, td p {
     color: #91778e;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Footer
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+footer {
+    background-color: gray;
+}
+.footContainer {
+    max-width: 1600px;
+    margin: auto;
+}
+.footAsideContainer {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.contactFoot, .dataFoot {
+    max-width: 30%;
+    display: inline-block;
+    margin: 20px auto;
+}
+.contactFoot {
+    float: left;
+}
+.dataFoot {
+    float:right;
+}
+.copyright {
+    clear: both;
+    background-color: dimgray;
 }
