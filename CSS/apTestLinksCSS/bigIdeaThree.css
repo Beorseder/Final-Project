@@ -117,9 +117,13 @@ body h1, h2 {
     font-family: 'Cute Font', cursive;
     font-size: 3em;
     color: orange;
+    padding-top: 20px;
 }
 body p {
     font-family: 'Open Sans', cursive;
+}
+.content {
+    padding: 0px 20px; 
 }
 .container .content {
     background-color: #f1fce3;
@@ -136,7 +140,12 @@ body p {
 }
 .whatToKnow li {
     margin: 10px auto;
+    list-style: none;
 }
+.closing {
+    margin-top: 40px;
+}
+
 /*
 /////////////////////////////////////////////////////
 ///////////////////////////////////////
@@ -171,5 +180,6 @@ footer {
 }
 .copyright {
     clear: both;
+    width: 100%;
     background-color: dimgray;
 }
