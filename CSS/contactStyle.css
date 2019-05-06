@@ -1,0 +1,185 @@
+/* Overarching */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Header
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+.header {
+    background-color: #dbfce8;
+    padding-top: 10px;
+}
+
+.logo {
+    float: left;
+}
+.logoWords {
+    font-family: 'Cute Font', cursive;
+    font-size: 36px;
+    margin-left: 0px;
+    margin-top: 16px;
+}
+
+.nav {
+    float: right;
+    font-family: cursive;
+}
+.nav ul {
+    margin-bottom: 0px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: darkslategray;
+    line-height: 70px;
+    font-size: 15px;
+}
+.nav ul li div button {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: darkslategray;
+    line-height: 70px;
+    font-size: 15px;
+    font-family: cursive;
+}
+/* Dropdown Button */
+.apDropdown {
+  background-color: #dbfce8;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.apDropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.apDropdownContent a {
+  color: black;
+  padding: 3px 4px;
+  text-decoration: none;
+  display: block;
+}
+.apDropdownContent a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .apDropdownContent {
+    display: block;
+}
+.dropdown:hover .apDropdown {
+    background-color: #b5f28c;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Inner Stuff
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+body h1, h2 {
+    font-family: 'Cute Font', cursive;
+    font-size: 3em;
+    color: orange;
+    padding-top: 20px;
+}
+body p {
+    font-family: 'Open Sans', cursive;
+}
+.content {
+    padding: 0px 20px; 
+}
+.container .content {
+    background-color: #f1fce3;
+}
+.innerContainer {
+    border-style: hidden;
+    margin-bottom: 0px;
+}
+.innerContainer h1 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 4em;
+    font-family: 'Cute Font', cursive;
+}
+.whatToKnow li {
+    margin: 10px auto;
+    list-style: none;
+}
+.closing {
+    margin-top: 40px;
+}
+
+/*
+/////////////////////////////////////////////////////
+///////////////////////////////////////
+/////////////////////////
+////////////// Footer
+/////////////////////////
+///////////////////////////////////////
+/////////////////////////////////////////////////////
+*/
+
+footer {
+    background-color: gray;
+}
+.footContainer {
+    max-width: 1600px;
+    margin: auto;
+}
+.footAsideContainer {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.contactFoot, .dataFoot {
+    max-width: 30%;
+    display: inline-block;
+    margin: 20px auto;
+}
+.contactFoot {
+    float: left;
+}
+.dataFoot {
+    float:right;
+}
+.copyright {
+    clear: both;
+    width: 100%;
+    background-color: dimgray;
+}
