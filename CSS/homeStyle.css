@@ -127,6 +127,7 @@ body p {
 }
 .container .content {
     background-color: #f1fce3;
+    padding-top: 20px;
 }
 .innerContainer {
     border-style: solid;
